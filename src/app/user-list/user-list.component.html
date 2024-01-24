@@ -1,0 +1,12 @@
+<p>user-list works!</p>
+<div *ngIf="randomUser">
+    <h2>{{ randomUser.name.first }} {{ randomUser.name.last }}</h2>
+    <p>Email: {{ randomUser.email }}</p>
+    <!-- Додайте інші поля, які вам потрібні -->
+</div>
+<div *ngIf="weatherData">
+      <h2>Current Temperature: {{ currentTemperature }} °C</h2>
+      <h2>Maximum temperature: {{ maxTemperature }} °C</h2>
+      <h2>Minimum Temperature: {{ minTemperature }} °C</h2>
+      <!-- Додайте інші поля, які вам потрібні -->
+</div>
